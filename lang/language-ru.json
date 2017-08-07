@@ -1,0 +1,187 @@
+{
+    "month": {
+        "01": {
+            "nominative": "январь",
+            "genitive": "января"
+        },
+        "02": {
+            "nominative": "февраль",
+            "genitive": "февраля"
+        },
+        "03": {
+            "nominative": "март",
+            "genitive": "марта"
+        },
+        "04": {
+            "nominative": "апрель",
+            "genitive": "апреля"
+        },
+        "05": {
+            "nominative": "май",
+            "genitive": "мая"
+        },
+        "06": {
+            "nominative": "июнь",
+            "genitive": "июня"
+        },
+        "07": {
+            "nominative": "июль",
+            "genitive": "июля"
+        },
+        "08": {
+            "nominative": "август",
+            "genitive": "августа"
+        },
+        "09": {
+            "nominative": "сентябрь",
+            "genitive": "сентября"
+        },
+        "10": {
+            "nominative": "октябрь",
+            "genitive": "октября"
+        },
+        "11": {
+            "nominative": "ноябрь",
+            "genitive": "ноября"
+        },
+        "12": {
+            "nominative": "декабрь",
+            "genitive": "декабря"
+        }
+    },
+    "resources": {
+        "header": "Ресурсы myStream",
+        "st": "Sharq Telekom",
+        "stream": "Sharq Stream",
+        "office": "Sharq Office",
+        "service": "Sharq Service",
+        "mystream": "Портал myStream",
+        "forum": "Форум",
+        "mail": "Почта",
+        "films": "Фильмы",
+        "music": "Музыка",
+        "soft": "Софт",
+        "games": "Игры",
+        "folder": "Файлообменник",
+        "books": "Книги",
+        "photo": "Фото",
+        "radio": "Радио",
+        "chat": "Чат"
+    },
+    "mainmenu": {
+        "index": "Главная",
+        "about": "О сервисе",
+        "logout": "Выйти из системы"
+    },
+    "meta": {
+        "description": "Портал программного обеспечения mySoft от Sharq Telekom",
+        "keywords": "скачать программы софт software soft application приложение мультимедиа система безопасность антивирус файрвол security antivirus firewall"
+    },
+    "title": {
+        "generic" : "",
+        "download": {
+            "generic": ""
+        }
+    },
+    "sidebar": {
+        
+    },
+    
+    "about": {
+        "header": "О проекте"
+    },
+    "abstract": "Аннотация",
+    "add_to_favorites": "Добавить в избранное",
+    "authors": "Авторы",
+    "books": "Книги",
+    "criterion": {
+        "author": "По автору",
+        "book": "По названию"
+    },
+    "disclaimer": {
+        "1": "Извините, но в данный момент в нашей базе нет ((DISCL_PART)) Мы постоянно пополняем нашу коллекцию, так что в скором времени все должно измениться!",
+        "2": "Извините, но в данный момент в нашей базе нет ((DISCL_PART)) '((GENRE_NAME))'. Мы постоянно пополняем нашу коллекцию, так что в скором времени все должно измениться!"
+    },
+    "discl_authors": "авторов, имя которых начинается на букву '((LETTER))'.",
+    "discl_genre_authors": "авторов, пишущих в жанре",
+    "discl_books": "книг, с названием на букву '((LETTER))'.",
+    "discl_genre_books": "книг жанра",
+    "download": "Скачать",
+    "format": "формат",
+    "genre_authors": "Авторы жанра",
+    "genre_books": "Книги жанра",
+    "header": {
+        "index": "Последние добавленные",
+        "search": "Результаты поиска",
+        "single": "Скачать программу"
+    },
+    "last_added": "Новинки",
+    "letter_authors": "Авторы на букву '((LETTER))'",
+    "letter_books": "Авторы на букву '((LETTER))'",
+    "library": "Библиотека",
+    "links": "Ссылки", 
+    "noauthor": "В связи с обновлением библиотеки данная страница была перемещена либо устарела. Воспользуйтесь поиском, чтобы найти её на нашем сайте. Приносим свои извинения за причиненные неудобства.",
+    "nobooks": "В базе нет книг данного автора. Мы постоянно пополняем нашу коллекцию, так что в скором времени все должно измениться!",
+    "nodata": "Нет данных",
+    "notfound": "Файлы с таким именем не найдены",
+    "rating": "Рейтинг",
+    "rss": "Подписка на RSS",
+    "search": {
+        "header": "Поиск",
+        "notfound": "Ваш запрос вернул пустой результат. Приносим свои извинения.", 
+        "submit": "Искать",
+        "title": "Искать"
+    },
+    "select": {
+        "author": "По автору",
+        "book": "По названию книги"
+    },
+    "size_unknown": "Не удалось определить размер файла",
+    "title": {
+        "generic": "книжный ресурс Sharq Telekom"
+    },
+    "to_authors_page": "На страницу автора",
+    "to_index_page": "На главную",
+    "topweek": "Топ недели",
+    "units": {
+        "byte": {
+            "short": "Б",
+            "long": "байт"
+        },
+        "kilobyte": {
+            "short": "КБ",
+            "long": "килобайт"
+        },
+        "megabyte": {
+            "short": "МБ",
+            "long": "мегабайт"
+        },
+        "gigabyte": {
+            "short": "ГБ",
+            "long": "гигабайт"
+        },
+        "terabyte": {
+            "short": "ТБ",
+            "long": "терабайт"
+        },
+        "week": {
+            "single": {
+                "nominative": "неделя",
+                "genitive": "неделю",
+                "dative": "недели",
+                "accusative": "неделю",
+                "ablative": "неделей",
+                "prepositional": "о неделе"
+            },
+            "plural": {
+                "nominative": "недели",
+                "genitive": "неделей",
+                "dative": "неделям",
+                "accusative": "недели",
+                "ablative": "неделями",
+                "prepositional": "о неделях"
+            }
+        }
+    },
+    "up": "Наверх"
+}

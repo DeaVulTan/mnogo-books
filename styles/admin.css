@@ -1,0 +1,9 @@
+/* CSS для админки :) */
+
+BODY, TABLE, FORM, SELECT, TEXTAREA { font-size: 12px;}
+BODY { background: #DEDEDE;}
+
+OPTION, INPUT  { font-size: 10px;}
+
+// INPUT[type='submit'], INPUT[type='file'] { font-size:10px;}
+

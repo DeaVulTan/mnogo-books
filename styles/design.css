@@ -1,0 +1,227 @@
+/* desing CSS clasess - for design specific purposes */
+
+/* tag selectors */
+HTML, BODY {
+  padding: 0px;
+  margin: 0px;
+
+  background-color: #171717;
+  color: #613305;
+  font-family: "Times New Roman", Times, serif;
+  -moz-box-sizing : border-box;
+}
+
+BODY {
+  padding: 5px 10px 5px 10px;
+}
+
+A IMG {
+  border: none;
+}
+
+TABLE.designLayoutTable {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+/*  table-layout: fixed; */
+}
+
+
+.centertable {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+
+.books_table {
+  padding: 2px;
+  margin: 0px;
+  border: 0px solid gray
+}
+
+.designth {
+  background: #EADAC1;
+  color: #8C4600;
+  margin: 0px;
+}
+
+.design1td {
+  background: #DEDEDE;
+  font-size:15px;
+  margin:2px;
+}
+
+
+.design2td {
+  background: #EFEFEF;
+  font-size:15px;
+}
+/*
+.design1td:hover, .design2td:hover {
+//  background: #fc0;
+  background: white;
+}
+*/
+
+.alphabet {
+  margin-top: 23px;
+}
+
+
+/* custom selectors */
+
+.designPHLeftCont, .designPHRightCont, .designTBTopCont, .designTBBottomCont {
+  padding: 0px;
+  margin: 0px;
+/*  background: #D1AC70; */
+}
+
+.designPHCentrCont {
+  padding: 0px;
+  margin: 0px;
+  background: url('../images/ph_cfill.jpg') repeat-x top left;
+  color: #E8D4B7;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.designTBBodyCont {
+  padding: 0px;
+  margin: 0px;
+  background: #D1AC70 url('../images/tb_bfill.jpg') repeat-y top left;
+}
+
+.designTBXHeadCont {
+  padding: 2px 5px 2px 20px;
+  margin: 0px;
+  background: transparent url('../images/tbx_header_bk.jpg') no-repeat 2px 2px;
+}
+
+.designTBXHeadText { 
+  font-size: 16px;
+  font-weight: bold;
+  color: #F2C53D;
+}
+
+.designTBXBodyCont {
+  padding: 2px 15px 2px 16px;
+  margin: 0px;
+}
+
+.designTBXMMenuText {
+  font-size: 12px;
+  font-weight: bold;
+  color: #613305;
+}
+
+
+.designCiphers { 
+  font-size: 12px;
+  font-weight: bold;
+  color: #A37240;
+}
+
+.designTBXMMenuText:hover {
+  color: #613305;
+}
+
+.designMACont {
+  padding: 0px 0px 0px 2px;
+  margin: 0px;
+
+}
+
+.designMATopEdge {
+  padding: 0px;
+  margin: 0px;
+  background: #D1AC70 url('../images/ma_te_fill.jpg') repeat-x top left;
+}
+
+.designMARightEdge {
+  padding: 0px;
+  margin: 0px;
+  background: #D1AC70 url('../images/ma_re_fill.jpg') repeat-y top left;
+}
+
+.designMABottomEdge {
+  padding: 0px;
+  margin: 0px;
+  background: #D1AC70 url('../images/ma_be_fill.jpg') repeat-x top left;
+}
+
+.designMALeftEdge {
+  padding: 0px;
+  margin: 0px;
+  background: #D1AC70 url('../images/ma_le_fill.jpg') repeat-y top left;
+}
+
+.designMABodyCont {
+  padding: 0px;
+  margin: 0px;
+  background: transparent url('../images/ma_cfill.jpg') repeat top left;
+}
+
+.designDecorateTableTL {
+  padding: 0px;
+  margin: 0px;
+  background: transparent url('../images/icn_ma_tl_corner.gif') no-repeat top left;
+}
+
+.designDecorateCellTR {
+  padding: 0px;
+  margin: 0px;
+  background: transparent url('../images/icn_ma_tr_corner.gif') no-repeat top right;
+}
+
+.designDecorateTableBR {
+  padding: 0px;
+  margin: 0px;
+  background: transparent url('../images/icn_ma_br_corner.gif') no-repeat bottom right;
+}
+
+.designDecorateCellBL {
+  padding: 0px;
+  margin: 0px;
+  background: transparent url('../images/icn_ma_bl_corner.gif') no-repeat bottom left;
+}
+
+.designPCTitleCont {
+  padding: 0px 0px 2px 0px;
+  margin: 0px;
+  background: transparent url('../images/pc_ptitle_fill.gif') repeat-x top left;
+}
+
+.designPCTitleText {
+  font-size: 16px;
+  font-weight: bold;
+  color: #613305;
+}
+
+.designItemDelimiter {
+  clear: both;
+  padding-bottom: 5px;
+}
+
+.designPFCenterCont {
+  padding: 0px;
+  margin: 0px;
+  background: transparent url('../images/pf_cfill.jpg') repeat-x top left;
+}
+
+.genre_link {
+  font-size: 14px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+#langpanel {
+    position: absolute;
+    top: 145px;
+    right: 40px;
+}
+
+#langpanel .flag {
+    margin: 0 0 0 12px ;
+}

@@ -1,0 +1,316 @@
+/* content CSS classes - used for content markup purposes */
+
+/* tag selectors */
+
+H1, H2, H3, P, A, TH, TD, UL, OL, LI, DL, DD, DT, LABEL, DIV, SPAN, INPUT, TEXTAREA {
+  font-family: "Times New Roman", Times, serif;
+}
+
+H1 {
+  font-size: 16px;
+}
+
+H2 {
+  font-size: 15px;
+}
+
+H3{
+  font-size: 14px;
+}
+
+H4, H5, H6 {
+  font-size: 12px;
+}
+
+P, UL, OL, DL, LABEL, .contentNormal, TEXTAREA {
+  font-size: 14px;
+}
+
+UL UL, OL OL {
+  font-size: 14px;
+}
+ 
+/* HEADINGS */
+H1, H2, H3, H4, H5, H6 {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0px;
+  clear: left;
+}
+
+H1 {
+  padding: 0.5ex 0.5ex 1ex 0.5ex;
+  margin: 0px;
+}
+
+
+H2, H3, H4, H5, H6 {
+  padding-top: 0.5ex;
+  padding-bottom: 0.5ex;
+}
+
+H1, H2, H3, H4, H5, H6 {
+  font-weight: bold;
+}
+
+/* REGULAR PARAGRAPHS */
+
+P {
+  padding: 0.1ex 0.5ex 0.5ex 0.5ex;
+  margin: 0px;
+  text-align: justify;
+}
+
+/* LINKS */
+
+A {
+  color: #8C4600;
+  text-decoration: none;
+}
+
+A:hover {
+  color: #592D00;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+A IMG {
+  border: none;
+}
+
+
+
+/* custom selectors */
+
+.contentMainLinksTextLink {
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform : uppercase;
+  text-decoration: none;
+}
+
+
+.contentPanelTitleText {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contentInformerBody {
+  width: 100%;
+
+  padding: 2px 3px 7px 2px;
+  margin: 0px;
+
+  border-bottom: 1px solid #FFFFFF;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+}
+
+.contentMainMenuLinkText {
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contentMainMenuLinkText:hover {
+  text-decoration: underline;
+}
+
+.contentSmallForm {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.contentPollCaption {
+  padding: 2px 3px 4px 6px;
+  margin: 0px;
+
+  color: #000000;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.contentPollChooseText {
+  color: #000000;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+}
+
+.contentPollCenText {
+  padding: 4px 2px 2px 2px;
+
+  color: #0000000;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+.contentFormSubmitButton {
+  padding: 2px;
+  margin: 0px;
+
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  text-align: center;
+
+  color: #FFFFFF;
+  background: #603913;
+  
+  border-width: 1px;
+  border-style: outer;
+
+  border-top-color: #C69C6D;
+  border-left-color: #C69C6D;
+  border-right-color: #362F2D;
+  border-bottom-color: #362F2D;
+}
+
+.contentFormInputText {
+  padding: 0px;
+  margin: 0px;
+
+  width: 100%;
+  font-size: 12px;
+
+  border: 1px solid #603913;
+  background: #FFFFFF;
+}
+
+.contentFormSelect {
+  font-size: 12px;
+
+  border: 1px solid #603913;
+  background: #FFFFFF;
+}
+
+
+.contentNewsHeader {
+  padding: 2px 2px 2px 0px;
+  margin: 0px;
+
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+.contentNewsIntro {
+  padding: 2px 2px 3px 7px;
+  margin: 0px;
+
+  color: #3B3B3B;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+}
+
+.contentNewsDate {
+  padding: 2px 2px 3px 5px;
+  margin: 0px;
+
+  color: #4055AB;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.contentNewsLink {
+  color: blue;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.contentNewsLinkArr {
+/*  color: darkred; */
+}
+
+
+.contentPageBody {
+  padding: 4px;
+  margin: 0px;
+}
+
+
+.contentRollbackMenu {
+  padding: 0px 4px 3px 4px;
+  margin: 0px;
+
+  color: #808080;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+}
+
+.contentImageLeft {
+  margin: 2px;
+  margin-right: 0.5em;
+  float: left;
+}
+
+.contentImageRight {
+  margin: 2px;
+  margin-left: 0.5em;
+  float: right;
+}
+
+.contentArticleLink {
+  color: #9D5B0F; 
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+.contentFooterLinks {
+  color: #000000;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+
+  text-decoration: none;
+}
+
+
+@font-face {
+  src:	local("GothicRus"),
+		url("gothicrus.ttf");
+  font-family: GothicRus;
+}
+
+
+DIV.annotation:first-letter {
+  font-family: GothicRus;
+  font-size: 200%;
+  color: red;
+}
+
+.links {
+  font-size: 10px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  color: #8C4600;
+/*  background: #EADAC1; */
+}
+
